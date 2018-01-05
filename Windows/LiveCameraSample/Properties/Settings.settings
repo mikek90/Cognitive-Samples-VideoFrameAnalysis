@@ -3,19 +3,19 @@
   <Profiles />
   <Settings>
     <Setting Name="FaceAPIKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">205c78e7ec0b4627bf76174b70ddf27a</Value>
     </Setting>
     <Setting Name="EmotionAPIKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">c1a580e80cbf493a9d94f14d3c0a5bac</Value>
     </Setting>
     <Setting Name="VisionAPIKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">ce403ee1639644e782a3c3be01cca836</Value>
     </Setting>
     <Setting Name="SettingsPanelVisibility" Type="System.Windows.Visibility" Scope="User">
       <Value Profile="(Default)">Visible</Value>
     </Setting>
     <Setting Name="AnalysisInterval" Type="System.TimeSpan" Scope="User">
-      <Value Profile="(Default)">00:00:03</Value>
+      <Value Profile="(Default)">00:00:01</Value>
     </Setting>
     <Setting Name="FaceAPICallCount" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -33,13 +33,13 @@
       <Value Profile="(Default)">00:05:00</Value>
     </Setting>
     <Setting Name="FaceAPIHost" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://westus.api.cognitive.microsoft.com/face/v1.0</Value>
+      <Value Profile="(Default)">https://westeurope.api.cognitive.microsoft.com/face/v1.0</Value>
     </Setting>
     <Setting Name="EmotionAPIHost" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://westus.api.cognitive.microsoft.com/emotion/v1.0</Value>
     </Setting>
     <Setting Name="VisionAPIHost" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://westus.api.cognitive.microsoft.com/vision/v1.0</Value>
+      <Value Profile="(Default)">https://westeurope.api.cognitive.microsoft.com/vision/v1.0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

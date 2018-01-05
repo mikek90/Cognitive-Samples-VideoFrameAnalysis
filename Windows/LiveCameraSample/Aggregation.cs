@@ -55,6 +55,9 @@ namespace LiveCameraSample
         public static string SummarizeFaceAttributes(FaceAttributes attr)
         {
             List<string> attrs = new List<string>();
+
+            if (attr.Age < 18) attrs.Add("!!UNDER 18 ALERT!! ");
+
             if (attr.Gender != null) attrs.Add(attr.Gender);
             if (attr.Age > 0) attrs.Add(attr.Age.ToString());
             if (attr.HeadPose != null)
@@ -63,7 +66,7 @@ namespace LiveCameraSample
                 bool facing = Math.Abs(attr.HeadPose.Yaw) < 25;
                 attrs.Add(facing ? "facing camera" : "not facing camera");
             }
-            return string.Join(", ", attrs);
+            return string.Join("; ", attrs);
         }
     }
 }
